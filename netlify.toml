@@ -1,0 +1,5 @@
+[functions]
+  node_bundler = "esbuild"
+
+[dev]  # so "netlify dev" can proxy functions locally if you want later
+  framework = "vite"
